@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Portfolio - Lindsay Gresset </title>
+        <link rel="stylesheet" href="css/portfolio.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li class="link"><a class="ancre" href="#ancre1" id="about">About</a></li>
+                <li class="link"><a class="ancre" href="#ancre2">Work</a></li>
+                <li class="link"><a class="ancre" href="#ancre3">Contact</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <div class="wrapper">
+                <h1 class="title">Hello, I'm Lindsay,<br>a full stack web developer.</h1>
+            </div>
+
+            <div class="separate"></div>
+
+                <article id="ancre1">
+                
+                    <!-- SECTION FLEX-CONTAINER -->
+                    <section class="flex-container">
+                            <div class="picture">
+                                <img class="picture1" src="images/laptop1.jpg">
+                            </div>
+
+                            <div class="prez">
+                                <p id="uppercase">I'm Lindsay, a French web developer,  currently living in Paris. 
+                                </p> 
+                                <p>I have worked in travel agency for 8 years and I decided to have a new challenge : being a web developer. In February 2022, I passed my exam with success. However, to gain more skills and to be confirmed, I am looking for a company for my work-study training program with 3W Academy.<br><br>This program is focused on Symfony and React framework with 90% of practice and 10% of theory during 12 months. Serious, passionate and rigorous, I am ready to have a new challenge.</p>
+                            </div>
+                    </section>
+                    <!-- SECTION FLEX-CONTAINER -->
+
+
+                    <!-- MAIN SKILLS -->
+                    <section class="skills flex-skill" id="progressbar">
+                        <!-- first skills -->
+                        <ul class="codes" id="ancre2">
+                            <h2>Codes Languages </h2>
+                            <li>HTML5/CSS3</li>
+                                <div class="progress ms-2">
+                                    <div class="progress-done" data-done="90">
+                                        Completed 90%
+                                    </div>
+                                </div>
+                            
+                            <li>Javascript</li>
+                                <div class="progress ms-2">
+                                    <div class="progress-done" data-done="54">
+                                        Completed 54%
+                                    </div>
+                                </div>
+                            </ul>
+                        <!-- first skills -->
+
+                        <!-- second skills -->
+                            <ul class="framework">
+                                <h2> Framework Languages</h2>
+                                <li>PHP/Symfony</li>
+                                    <div class="progress ms-2">
+                                        <div class="progress-done" data-done="70">
+                                            Completed 70%
+                                        </div>
+                                    </div>
+                                <li>Bootstrap</li>
+                                    <div class="progress ms-2">
+                                        <div class="progress-done" data-done="80">
+                                            Completed 80%
+                                        </div>
+                                    </div>
+                                <li>JQuery</li>
+                                    <div class="progress ms-2">
+                                        <div class="progress-done" data-done="50">
+                                            Completed 50%
+                                        </div>
+                                    </div>
+                                <li>React</li>
+                                    <div class="progress ms-2">
+                                        <div class="progress-done" data-done="50">
+                                            Completed 50%
+                                        </div>
+                                    </div>
+                            </ul>
+                        <!-- second skills -->
+                    </section>
+                    <!-- MAIN SKILLS -->
+                </article>
+
+                <div class="separate"></div>
+
+                <!-- SECTION PROJECTS -->
+                <section class="projects">
+                    <h2>PROJECTS</h2>
+                        <div class="flex-work">
+                            <!-- CARD 1 -->
+                            <!-- <div class="card1">
+                                <h3>Melpassion</h3>
+                                    <div class="image">
+                                        <img class="melpassion" src="images/deco.jpg">
+                            
+                                        <p class="projet">Decoration website <br> Symfony : back-end <br> HTML/CSS/JS/jQUERY : front-end</p>
+                                    </div>
+                            </div> -->
+                            <!-- CARD 1 -->
+
+                            <!-- CARD 2 -->
+                            <div class="card2">
+                                <h3>Moniteur/Formateur indépendant poids lourd</h3>
+                                    <div class="image">
+                                        <a href="https://enseignant-independant-paris.com" target="_blank"><img class="melpassion" src="images/truck.jpg"></a>
+                            
+                                        <p class="projet">Website created for an independant driving scholl instructor focused on the trucks and the bus.
+                                        <br>For this website, I used HTML, CSS and Javascript languages.</p>
+                                    </div>
+                            </div>
+                        <!-- CARD 2 -->
+                        </div>
+                    </section>
+                <!-- SECTION PROJECTS -->
+
+                <div class="separate"></div>
+
+                <!-- SECTION FORMATION -->
+                <section>
+                    <h2>FORMATION</h2>
+                    <div>
+                        <p class="formation">- Second-year university level - Web Developer - NextFormation School - 2022</p>
+                        <p class="formation">- <a class="opquast" href="https://directory.opquast.com/fr/certificat/WQ2E6T/" target="_blanck">"Opquast Certification : "Web Quality" - Advanced level</a> - 2021 November/2026 November</p>
+                        <p class="formation">- BTEC Higher National Diploma - Tourisme - 2012</p>
+                    </div>
+                </section>
+                <!-- SECTION FORMATION -->
+        </main>
+
+        <div class="separate"></div>
+
+        <div class="btnColor">
+            <button  id="scrollUp">
+                <a href="#top"><img id="arrow" src="images/btn_up/arrow-up.svg"></a>
+            </button>
+        </div>
+
+        <footer id="ancre3">
+            <p>Contact : <a class="linkedin" href="https://www.linkedin.com/in/lindsay-gresset" target="_blanck">LinkedIn</a></p>
+        </footer>
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="js/skills.js"></script>
+    </body>
+</html>
